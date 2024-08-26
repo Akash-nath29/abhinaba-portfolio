@@ -1,14 +1,15 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+// import { ComputersCanvas } from "./canvas";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdOutlineAttachEmail } from "react-icons/md";
 
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
-      >
+        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#ff4a4a]' />
           <div className='w-1 sm:h-80 h-40 bg-gradient-to-b from-red-500' />
@@ -23,9 +24,25 @@ const Hero = () => {
             interfaces and web applications
           </p>
         </div>
+        <br />
       </div>
+        <div className={`absolute inset-0 top-[400px] left-[500px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
+          <div className='flex gap-20 items-center justify-center'>
+            <a
+              href='#'>
+              <FaGithub className='text-white text-6xl' />
+              </a>
+            <a href='#'>
+              <FaLinkedin className='text-white text-6xl' />
+              </a>
+            <a href='#'>
+              <MdOutlineAttachEmail className='text-white text-6xl' />
+              </a>
+              </div>
+        </div>
+      
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
