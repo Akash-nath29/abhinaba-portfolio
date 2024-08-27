@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
+    "@material-tailwind/react": "^2.1.9",
     "@react-three/drei": "^9.56.24",
     "@react-three/fiber": "^8.11.1",
     "caniuse-lite": "^1.0.30001653",
