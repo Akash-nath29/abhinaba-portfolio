@@ -259,4 +259,19 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const contactIcons = [
+  {
+    icon: "FaGithub",
+    link: "https://github.com/abhinababiswas01",
+  },
+  {
+    icon: "FaLinkedin",
+    link: "https://www.linkedin.com/in/abhinaba-biswas/",
+  },
+  {
+    icon: "MdOutlineAttachEmail",
+    link: "mailto:abhinaba-biswas@outlook.com"
+  }
+]
+
+export { services, technologies, experiences, testimonials, projects, contactIcons };
