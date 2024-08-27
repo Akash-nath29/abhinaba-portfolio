@@ -29,16 +29,16 @@ const Hero = () => {
         {/* <br /> */}
       </div>
       <div
-        className={`absolute inset-0 xs:left-[100px] xs:top-[600px] sm:left-[100px] sm:top-[600px] md:top-[600px] lg:top-[450px] top-[600px] lg:left-[500px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 xs:left-[100px] xs:top-[600px] sm:left-[100px] sm:top-[600px] md:top-[600px] lg:top-[450px] top-[450px] lg:left-[500px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className="flex gap-20 w-full lg:w-auto items-center justify-center">
-          <a href="#">
+          <a href="https://github.com/abhinababiswas01">
             <FaGithub className="text-white lg:text-6xl text-5xl" />
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/abhinaba-biswas/">
             <FaLinkedin className="text-white lg:text-6xl text-5xl" />
           </a>
-          <a href="#">
+          <a href="mailto:abhinaba-biswas@outlook.com">
             <MdOutlineAttachEmail className="text-white lg:text-6xl text-5xl" />
           </a>
     
